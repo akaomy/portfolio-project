@@ -1,0 +1,7 @@
+{
+  "name": "dz1_annak",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0"
+  }
+}

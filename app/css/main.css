@@ -1,0 +1,286 @@
+
+
+/*
+* Fonts
+*/
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #4a545d;
+    background: url(../img/bkg-img.png);
+}
+
+h1 {
+	font-family: Arial Narrow,Arial,sans-serif;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 26px;
+
+}
+h2 {
+	font-family: Arial Narrow,Arial,sans-serif;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 15px;
+
+}
+p {
+	font-family: Arial Narrow,Arial,sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+
+/*
+* Links and hover
+*/
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-family: Arial Narrow,Arial,sans-serif;
+    font-size: 
+}
+/*
+* Shared styles
+*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " " ;
+    display: table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	       -box-sizing: border-box;
+}
+
+* {
+    margin:0
+}
+
+.container {
+	width: 965px;
+	margin: 0 auto;
+}
+
+/*
+.main-container {
+    background: url(../img/bkg-img.png);
+}
+*/
+
+/*
+*  Header (nav-bar)
+*/
+
+.header {
+    background-color: #eff3f7;
+    margin-bottom: 10px;
+}
+
+.social-icons li{
+    list-style-type: none;
+}
+
+.logo {
+    display: inline-block;
+    padding: 40px 0;
+}
+
+.social-icons {
+    float: right;
+    padding: 30px;
+}
+
+.social-icons li{
+    display: inline-block;
+    padding: 0 200x;
+}
+
+.social-icons li a {
+    padding-right: 20px;
+}
+
+
+
+/*
+*  Main content (two columns)
+*/
+
+
+/*
+* Left Column (card)
+*/
+
+.main-info {
+    margin-top: 40px;
+    height: 100%;
+}
+
+.left-column {
+    width: 250px;
+    height: 230px;
+    float: left;
+    background-color: #eff3f7;
+}
+
+
+
+.about-me {
+    border-radius: 5px 5px 0 0;
+    padding: 30px 0 30px 30px;
+    background: #3ba8c0; 
+    color: #fff;
+}
+
+.about-me a {
+    color: #fff;
+}
+
+
+.my-works {
+    padding: 30px 0 30px 30px;
+    border-bottom: 2px solid #3ba8c0;
+    color: #3ba8c0;
+}
+
+.my-works a {
+    color: #3ba8c0;
+}
+
+.contact-me {
+    padding: 30px 0 30px 30px;
+    border-radius: 0 0 5px 5px;
+}
+
+
+.contact-me a {
+    text-decoration: none;
+    color: #959aa8;
+}
+
+/*
+* Right Column (card)
+*/
+
+
+.right-column {
+    float: right;
+    background-color: #eff3f7;
+    border-radius: 5px;
+    width: 650px; 
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.short-info-tile {
+    color: #3ba8c0;
+    border-bottom: 2px solid #3ba8c0;
+    padding: 20px 60px 25px 25px;
+}
+
+.short-info {
+    color: #3ba8c0;
+    padding: 20px 0 30px 0;
+}
+
+
+
+.work-icon {
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.card p {
+    display: inline-block;
+    padding: 25px 0 15px 30px;
+    
+}
+
+/*Lower Card*/
+
+
+.education {
+    color: #3ba8c0;
+    border-bottom: 2px solid #3ba8c0;
+    padding: 20px 0 30px 25px;
+}
+
+/*
+* Footer
+*/
+
+.fix-footer {
+    min-height: 100%;
+    margin-bottom: -142px;
+}
+
+.fix-footer:after {
+    content: "";
+    display: block;
+}
+
+.footer, .fix-footer:after {
+    height: 142px;
+}
+
+.footer {
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background-color: #eff3f7;
+}
+
+.footer p{
+    padding-top: 30px;
+}
+
+/*
+*   Basic Info
+*/
+
+.pers-photo {
+    padding-left: 56px;
+}
+
+.pers-info {
+    float: right;
+    display: block;
+}
+
+#my-photo {
+    height: 130px;
+    width: 130px;
+    border-radius: 70px;
+}
+
+
+
+
+
+
