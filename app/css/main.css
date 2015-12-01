@@ -20,6 +20,10 @@ body {
     color: #4a545d;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 960px;
     margin: 0 auto;
@@ -81,14 +85,10 @@ body {
     left: -9999px;
 }
 
-/*
-*   Socials
-*/
-
 .socials {
     position: absolute;
     right: 0;
-    top: 36px;
+    top: 30px;
 }
 
 .socials-item {
@@ -99,43 +99,127 @@ body {
     margin-left: 19px;
 }
 
-.socials-item:first-child {
+.social-item:first-child {
     margin-left: 0;
-}/*resetting to 0 padding of first element*/
+}
 
 .socials-link {
     display: block;
     height: 100%;
     width: 100%;
     text-indent: -9999px;
-    background: url(../img/socials.png) no-repeat;
+    background: url(../img/spritesheet-socials.png) no no-repeat;
 }
 
-.facebook-icon, .gihtub-icon, .tw-icon, .vk-icon{ 
-    display: inline-block; 
-    background: url('png') no-repeat;
-     overflow: hidden; 
-     text-indent: -9999px; 
-     text-align: left; 
-}
- 
-.socials-link.vk {background-position: -2px -3px; }
-.socials-link.tw {background-position: -71px -3px; }
-.socials-link.fb {background-position: -140px -3px; }
-.socials-link.gt {background-position: -209px -3px; }
-.socials-link:hover {background-position-y: -65px; }
+
 /*
-*  End of  Socials
+*   Sprites
+*/
+
+.sprite {
+    background-image: url(../img/spritesheet-socials.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-fb {
+    width: 47px;
+    height: 47px;
+    background-position: -5px -5px;
+}
+
+.sprite-fb:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -62px -5px;
+}
+
+.sprite-gt {
+    width: 47px;
+    height: 47px;
+    background-position: -5px -62px;
+}
+
+.sprite-gt:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -62px -62px;
+}
+
+.sprite-tw {
+    width: 47px;
+    height: 47px;
+    background-position: -119px -5px;
+}
+
+.sprite-tw:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -119px -62px;
+}
+
+.sprite-vk {
+    width: 47px;
+    height: 47px;
+    background-position: -5px -119px;
+}
+
+.sprite-vk:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -62px -119px;
+}
+
+/*
+*  End of  Sprites
 */
 
 /*
 * End of Header
 */
 
+/*
+* Navigation
+*/
+
+.sidebar {
+    width: 250px;
+    float: left;
+}
+
+
+/*
+* Contact block
+*/
+.contacts-info-item a:hover {
+    text-decoration: underline;
+}
+
+.contacts-info {
+    list-style: none;
+}
+
+
+/*
+* End of Navigation
+*/
 
 /*
 *   Footer
 */
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    min-width: 970px;
+    height: auto !important;
+}
+
+.wrapper:after {
+    content: "";
+    height: 88px;
+    display: block;
+}
 
 
 .page-footer {
