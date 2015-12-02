@@ -21,6 +21,23 @@ ul {
 
 .about-block {
 	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+}
+
+.about-block-header {
+	font-family: 'fira_sansbook';
+	font-size: 27px;
+	font-weight: normal;
+	color: #3ba8c0;
+	border-bottom: 2px solid #3ba8c0;
+	display: inline-block;
+	padding: 13px 23px;
+	margin: 0 0 23px 0;
+}
+
+.about-block-body {
+	padding-bottom: 40px;
 }
 
 .avatar-box {
@@ -31,18 +48,24 @@ ul {
 	height: 142px;
 }
 
-.work-sheet-wrap {
+.worksheet-wrap {
 	float: right;
 	width: 400px;
 }
 
 .worksheet-list {
 	list-style: none;
-	width: 400px;
+	padding: 0;
+	margin: 0;
+}
+
+.worksheet-list-item {
+	margin-bottom: 8px;
 }
 
 .worksheet-name {
 	float: left;
+	font-size: 16px;
 	font-family: 'fira_sansmedium';
 }
 
@@ -50,7 +73,7 @@ ul {
 	font-family: 'fira_sansbook';
 	font-size: 15px;
 	overflow: hidden;
-	max-width: 200px;
+	max-width: 218px;
 	float: left;
 	margin-left: 25px;
 
@@ -113,10 +136,17 @@ ul {
 * End of Sprites EDU + JOB
 */
 
-.about-block-list {
-	padding: 0;
+
+
+/*.about-block-item:last-child {
+	margin-bottom: 0;
 }
 
+/*.about-block-item.where {
+	font-family: 'fira_sansbook';
+	font-size: 15px;
+	line-height: 1;
+}*/
 
 /*
 * End of big changeable blocks

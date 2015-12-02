@@ -91,7 +91,7 @@ i {
 .socials {
     position: absolute;
     right: 0;
-    top: 30px;
+    top: 20px;
 }
 
 .socials-item {
@@ -100,6 +100,7 @@ i {
     height: 47px;
     width: 47px;
     margin-left: 19px;
+
 }
 
 .social-item:first-child {
@@ -256,7 +257,8 @@ i {
 .contacts-info-title {
     background-color: #3ba8c0;
     color: #f9fafb;
-    padding: 15px 0 10px 21px;
+    padding-left: 21px;
+    line-height: 200%;
     font-size: 22px;
     font-family: 'fira_sansbook';
 }
@@ -314,10 +316,10 @@ i {
 * End of Navigation and Contact Blocks
 */
 
-/*
-* 
-*/
-
+.variable-block {
+    width: 650px;
+    float: right;
+}
 
 /*
 *   Footer
