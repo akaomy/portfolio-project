@@ -25,6 +25,15 @@ ul {
 	margin-bottom: 26px;
 }
 
+.about-block-body {
+	overflow: hidden;
+}
+
+.about-block-list {
+	margin: 0;
+	padding: 0;
+}
+
 .about-block-header {
 	font-family: 'fira_sansbook';
 	font-size: 27px;
@@ -113,24 +122,44 @@ ul {
 /*
 * Sprites EDU + JOB
 */
-
-.sprite-edu-job {
-    background-image: url(../img/spritesheet-edu-job.png);
+.sprite-edu-work {
+    background-image: url(../img/spritesheet-edu-work.png);
     background-repeat: no-repeat;
     display: block;
+}
+
+.sprite-doc-icon {
+    width: 26px;
+    height: 32px;
+    background-position: -10px -10px;
+    display: inline-block;
+    float: left;
 }
 
 .sprite-edhat-icon {
     width: 42px;
     height: 23px;
-    background-position: -5px -5px;
+    background-position: -56px -10px;
+    display: inline-block;
+    float: left;
 }
 
 .sprite-work-icon {
     width: 36px;
     height: 34px;
-    background-position: -57px -5px;
+    background-position: -56px -53px;
+    display: inline-block;
+    float: left;
 }
+
+
+/*.sprite-work-icon {
+    width: 36px;
+    height: 34px;
+    background-position: -57px -5px;
+    display: inline-block;
+    float: left;
+}*/
 
 /*
 * End of Sprites EDU + JOB
@@ -138,15 +167,33 @@ ul {
 
 
 
-/*.about-block-item:last-child {
+.about-block-item {
+	padding-left: 60px;
+	padding-bottom: 20px;
+	max-width: 542px;
+}
+
+.where {
+	font-family: 'fira_sansbook';
+	font-size: 17px;
+	line-height: 1.3;
+	padding-left: 70px;
+}
+
+.date {
+    font-family: 'fira_sanseight';
+   	font-size: 15px;
+   	line-height: 1.3;
+   	padding-left: 70px;
+
+}
+
+
+.about-block-item:last-child {
 	margin-bottom: 0;
 }
 
-/*.about-block-item.where {
-	font-family: 'fira_sansbook';
-	font-size: 15px;
-	line-height: 1;
-}*/
+
 
 /*
 * End of big changeable blocks
