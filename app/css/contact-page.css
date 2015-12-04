@@ -1,0 +1,30 @@
+.first-image {
+	background-image: url(../img/portfolio-showcase-image.png);
+}
+
+.second-image {
+	background-image: url(../img/portfolio-showcase-image2.png);
+}
+
+.third-image {
+	background-image: url(../img/portfolio-showcase-image3.png);
+}
+
+
+.fourth-image {
+	background-image: url(../img/portfolio-showcase-image4.png);
+}
+
+
+.portfolio-gallery-img {
+	width: 180px; 
+	height: 130px;
+  {
+
+.portfolio-gallery-item {
+	display: inline-block;
+  }
+
+.portfolio-gallery-item:last-child {
+	margin-bottom: 0;
+}  
