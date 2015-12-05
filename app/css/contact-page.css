@@ -1,30 +1,137 @@
-.first-image {
-	background-image: url(../img/portfolio-showcase-image.png);
+.contact-me-block {
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 25px;
+	padding-bottom: 200px;
 }
 
-.second-image {
-	background-image: url(../img/portfolio-showcase-image2.png);
+.contact-me-block-header {
+	font-family: 'fira_sansbook';
+	font-size: 27px;
+	font-weight: normal;
+	text-align: center;
+	color: #fff;
+	background-color: #48cbe8;
+	border-bottom: 17px solid #67dffa;
+	display: block;
+	padding: 50px 60px;
+	margin: 0 0 23px 0;
 }
 
-.third-image {
-	background-image: url(../img/portfolio-showcase-image3.png);
+.contact-form {
+	width: 402px;
+	margin: 0 auto;
+	padding-top: 48px;
 }
 
-
-.fourth-image {
-	background-image: url(../img/portfolio-showcase-image4.png);
+.left-block-for-name {
+	width: 48%;
+	float: left;
+	border-radius: 
 }
 
+.right-block-for-email{
+	width: 48%;
+	float: right;
+}
 
-.portfolio-gallery-img {
-	width: 180px; 
-	height: 130px;
-  {
+label {
+	font-family: fira_sanslight;
+	font-size: 19px;
+	display: block; 
+}
 
-.portfolio-gallery-item {
+input[type=text] {
+	border: 1px solid #67dffa;
+	border-radius: 4px;
+	width: 193px;
+	height: 42px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #48cbe8;
+    padding-left: 10px;
+    font-size: 13px;
+	font-family: fira_sanslight;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #48cbe8;
+    padding-left: 10px;
+    font-size: 13px;
+	font-family: fira_sanslight;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #48cbe8;
+    padding-left: 10px;
+    font-size: 13px;
+	font-family: fira_sanslight;
+}
+:-ms-input-placeholder,  { /* Internet Explorer 10-11 */
+   	color: #48cbe8;
+   	padding-left: 10px;
+    font-size: 13px;
+	font-family: fira_sanslight;
+}
+
+/*.message-input-filed {
 	display: inline-block;
-  }
+	padding-top: 17px;
+}*/
 
-.portfolio-gallery-item:last-child {
-	margin-bottom: 0;
-}  
+.message-textarea {
+	width: 100%;
+	height: 183px;
+	border: 1px solid #67dffa;
+	border-radius: 4px;
+	owerflow: auto;
+}
+
+.capcha-explanation-text {
+	padding-top: 17px;
+}
+
+
+.buttons {
+	margin-top: 21px;
+	color: #fff;	
+}
+
+.submit-button {
+	border-radius: 4px;
+	background-color: #48cbe8;
+	border: none;
+	width: 137px;
+	height: 35px;
+	box-shadow: 0 3px 0 #3ba8c0;
+}
+
+.clear-button {
+	float: right;
+	border-radius: 4px;
+	background-color: #849db5;
+	border: none;
+	width:137px;
+	height: 35px;
+	box-shadow: 0 3px 0 #687b8f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

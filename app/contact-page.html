@@ -21,8 +21,10 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/about-me.css">
+	<link rel="stylesheet" href="css/contact-page.css">
 	<!-- modernizr -->
 	<script rel="stylesheet" type="text/css" href="bower/modernizer/modernizr.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -77,7 +79,35 @@
 					</adress>
 				</aside><!-- Sidebar-->
 
-				
+				<div class="variable-block">
+					<section class="contact-me-block">
+						<h2 class="contact-me-block-header">Do you have an interesting project for me? Just fill out the form below</h2>
+						
+						<div class="contact-form-wrapper">
+							<form action="" class="contact-form" method="post">
+								<div class="left-block-for-name">
+									<label for="name">Name:</label>
+									<input class="form-block-name" type="text" id="user-name" name="user-name" placeholder="How should I call you?" required>
+								</div>
+								<div class="right-block-for-email">
+									<label for="name">Email:</label>
+									<input class="form-block-email" type="text" id="user-email" name="user-email" placeholder="Where should I email you?" required>
+								</div>
+								<div class="message-input-field">
+									<label for="message">Message:</label>
+									<textarea class="message-textarea" name="user-message" id="message" required></textarea>
+								</div>
+								<p class="capcha-explanation-text">Check this box to prove that you are human</p>
+								<div class="g-recaptcha" data-sitekey="6LeIbxITAAAAANZyXSfxY5ZIPZvhjwHtSCgPq8M6">
+								</div>
+								<div class="buttons">
+									<button class="submit-button" type="submit">Submit</button>
+									<button class="clear-button" type="clear">Clear</button>
+								</div>
+							</form>
+						</div>
+					</section>
+				</div><!-- Big Variable Block-->
 
 			</div><!-- Container -->
 

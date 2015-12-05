@@ -1,0 +1,130 @@
+
+.porfolio-block {
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+}
+
+.portfolio-block-header {
+	font-family: 'fira_sansbook';
+	font-size: 27px;
+	font-weight: normal;
+	color: #3ba8c0;
+	border-bottom: 2px solid #3ba8c0;
+	display: inline-block;
+	padding: 13px 23px;
+	margin: 0 0 23px 0;
+}
+
+.porfolio-gallery{
+	margin: 0 auto;
+}
+
+.portfolio-gallery-item {
+	display: inline-block;
+	width: 183px;
+	vertical-align: top;
+	margin-left: 25px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+
+}
+
+.portfolio-gallery-item:last-child {
+	margin-bottom: 0;
+}
+
+.portfolio-gallery-img {
+	width: 100%;
+	height: 100%;
+	border: 3px solid #3ba8c0;
+	border-radius: 6px;
+
+}
+
+.portfolio-gallery-img:hover, .hover-image-effect:hover, .hover-image-effect  {
+	display: inline-block;
+}
+.single-project {
+	width: 100%;
+	height: 129px;
+	position: relative;
+	overflow: hidden;
+}
+
+.hover-image-effect {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(98, 398, 398, 0.4);
+	text-align: center;
+	display: none;
+}
+
+.hover-image-effect:before {
+	content: "";
+	height: 100%;
+	width: 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.image-link {
+	display: inline-block;
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding-top: 5px;
+	vertical-align: middle;
+}
+
+.project-link {
+	display: block;
+	padding-top: 7px;
+	text-decoration: none;
+	font-size: 13px;
+	text-align: center;
+	font-family: 'fira_sanslight_italic';  	
+	color: #3ba8c0;
+}
+
+.project-description {
+/*	display: inline-block;
+*/	text-align: center;
+	font-family: 'fira_sanseight';
+	font-size: 15px;
+	color: #4a545d;
+	padding-bottom: 50px;
+	margin: 0;
+}
+
+.add {
+	height: 128px;
+	/*background-color: #edf8fc;*/
+}
+
+
+.add-project {
+	text-decoration: none;
+	font-family: 'fira_sanseight';
+	font-size: 13px;
+	color: #3ba8c0;
+	display: block;
+	padding-top: 25px;
+	height: 100%;
+
+}
+
+.add-project-titile:before {
+	content: "";
+	display: block;
+	margin: 0 auto;
+
+}
+
+
