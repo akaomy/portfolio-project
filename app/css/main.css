@@ -96,7 +96,7 @@ i {
 .socials {
     position: absolute;
     right: 0;
-    top: 20px;
+    top: 30px;
 }
 
 .socials-item {
@@ -265,6 +265,7 @@ i {
     padding-left: 21px;
     line-height: 200%;
     font-size: 22px;
+    font-weight: normal;
     font-family: 'fira_sansbook';
 }
 
@@ -297,12 +298,16 @@ i {
     background-repeat: no-repeat;
     padding-left: 20px;
     line-height: 240%;
+    padding-right: 5px;
+    padding-bottom: 5px;
 }
 
 .sprite-email-icon {
     width: 21px;
     height: 16px;
     background-position: -5px -5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
 }
 
 .sprite-phone-icon {
