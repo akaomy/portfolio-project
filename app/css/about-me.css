@@ -176,18 +176,16 @@ ul {
 .where {
 	font-family: 'fira_sansbook';
 	font-size: 17px;
-	line-height: 1.3;
+	line-height: 1.4;
 	padding-left: 70px;
 }
 
 .date {
-    font-family: 'fira_sanseight';
+    font-family: 'fira_sanslight';
    	font-size: 15px;
-   	line-height: 1.3;
+   	line-height: 1.4;
    	padding-left: 70px;
-
 }
-
 
 .about-block-item:last-child {
 	margin-bottom: 0;

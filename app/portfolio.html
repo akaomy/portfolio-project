@@ -22,8 +22,10 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/about-me.css">
 	<link rel="stylesheet" href="css/portfolio.css">
-	<!-- modernizr -->
-	<script rel="stylesheet" type="text/css" href="bower/modernizer/modernizr.js"></script>
+	<!--[if lt IE 9]>
+    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+	<![endif]-->
+	<script src="bower/html5shiv/dist/html5shiv-printshiv.min.js"></script>
 </head>
 
 <body>
@@ -31,7 +33,7 @@
 <p class="browsehappy">You are using <strong>obsolete</strong> browser. Please <a href="http://browsehappy.com/?locale=en"> update to a new one</a>.</p> 
 <![endif]-->
 
-<div class="fix-footer">
+<div class="fix">
 	<div class="wrapper">
 		<div class="main-content">
 			<header class="page-header">
@@ -86,54 +88,52 @@
 					<section class="porfolio-block">
 						<h2 class="portfolio-block-header">Portfolio</h2>
 						<ul class="portfolio-gallery">
-							<li class="portfolio-gallery-item">
-								<div class="single-project">
-									<img class="portfolio-gallery-img" src="img/portfolio-showcase-image.png" alt="portfolio image">
-									<div class="hover-image-effect">
-										<a class="image-link" href="" target="_blank">Learn more</a>
-									</div>
-								</div><!-- single project image-->	
-								<a class="project-link" href="">link.com</a>
-								<p class="project-description">Here will be the project description 2 lines ...</p>
-							</li><!-- portfolio gallery item -->
-							<li class="portfolio-gallery-item">
-								<div class="single-project-image">
-									<img class="portfolio-gallery-img" src="img/portfolio-showcase-image2.png" alt="portfolio image">
-									<div class="hover-image-effect">
-										<a class="image-link" href="" target="_blank">Learn more</a>
-									</div>
-								</div><!-- single project image-->	
-								<a class="project-link" href="">link.com</a>
-								<p class="project-description">Here will be the project description 2 lines ...</p>
-							</li><!-- portfolio gallery item -->
-							<li class="portfolio-gallery-item">
-								<div class="single-project-image">
-									<img class="portfolio-gallery-img" src="img/portfolio-showcase-image3.png" alt="portfolio image">
-									<div class="hover-image-effect">
-										<a class="image-link" href="" target="_blank">Learn more</a>
-									</div>
-								</div><!-- single project image-->	
-								<a class="project-link" href="">link.com</a>
-								<p class="project-description">Here will be the project description 2 lines ...</p>
-							</li><!-- portfolio gallery item -->
-							<li class="portfolio-gallery-item">
-								<div class="single-project-image">
-									<img class="portfolio-gallery-img" src="img/portfolio-showcase-image4.png" alt="portfolio image">
-									<div class="hover-image-effect">
-										<a class="image-link" href="" target="_blank">Learn more</a>
-									</div>
-								</div><!-- single project image-->	
-								<a class="project-link" href="">link.com</a>
-								<p class="project-description">Here will be the project description 2 lines ...</p>
-							</li><!-- portfolio gallery item -->
-							<li class="portfolio-gallery-item add">
-								<a class="add-project" href="#">
-									<span class="add-project-titile">Add project</span>
-								</a>
-							</li><!-- add portfolio gallery item -->
-
-						</ul>
-
+							<li class="portfolio-item">
+								<div class="project-wrap project1">
+									<a class="project-img" href="#">
+										<span class="caption">link.com</span>
+									</a>
+								</div>
+								<a href="#" class="project-link">link.com</a>
+								<p class="project-description">Here is project description bla bla bla</p>
+							</li>
+							<li class="portfolio-item">
+								<div class="project-wrap project2">
+									<a class="project-img" href="#">
+										<span class="caption">link.com</span>
+									</a>
+								</div>
+								<a href="#" class="project-link">link.com</a>
+								<p class="project-description">Here is project description bla bla bla</p>
+							</li>
+							<li class="portfolio-item">
+								<div class="project-wrap project3">
+									<a class="project-img" href="#">
+										<span class="caption">link.com</span>
+									</a>
+								</div>
+								<a href="#" class="project-link">link.com</a>
+								<p class="project-description">Here is project description bla bla bla</p>
+							</li>
+							<li class="portfolio-item">
+								<div class="project-wrap project4">
+									<a class="project-img" href="#">
+										<span class="caption">link.com</span>
+									</a>
+								</div>
+								<a href="#" class="project-link">link.com</a>
+								<p class="project-description">Here is project description bla bla bla</p>
+							</li>
+							<li class="portfolio-item">
+								<div class="project-wrap add-project">
+									<a class="add-project-bg" href="#" >
+										<img class="add-icon" src="img/add-icon.png" alt="New Project icon">
+										<br>
+										<span class="inner-caption-add-project">Add Project</span>
+									</a>
+								</div>
+							</li>
+					</ul>
 					</section>
 				</div><!-- Variable blocks-->
 
@@ -147,7 +147,7 @@
 	</div><!-- Wrapper -->
 
 
-</div><!-- fix footer -->
+</div><!-- fix -->
 
 
 <footer class="page-footer">

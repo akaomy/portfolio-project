@@ -21,8 +21,11 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/about-me.css">
-	<!-- modernizr -->
-	<script rel="stylesheet" type="text/css" href="bower/modernizer/modernizr.js"></script>
+	<!--[if lt IE 9]>
+    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+	<![endif]-->
+	<script src="bower/html5shiv/dist/html5shiv-printshiv.min.js"></script>
+
 </head>
 
 <body>
@@ -208,7 +211,6 @@
 		<div class="copyright">&copy; 2015, Anna Kozlova</div>
 	</div>
 </footer>
-
 
 
 <script src="bower/jquery/dist/jquery.js"></script>

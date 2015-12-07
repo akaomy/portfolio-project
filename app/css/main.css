@@ -21,8 +21,7 @@ ul {
 body {
     height: 100%;
     background: url(../img/bkg-img.png) repeat;
-/*    font: normal 1em 'fira_sanslight';
-*/    color: #4a545d;
+    color: #4a545d;
 }
 
 a {
@@ -398,17 +397,17 @@ i {
 * Sticky Footer
 */
 
-.fix-footer {
+.fix{
     min-height: 100%;
     margin-bottom: -142px;
 }
 
-.fix-footer:after {
+.fix:after {
     content: "";
     display: block;
 }
 
-.page-footer, .fix-footer:after {
+.page-footer, .fix:after {
     height: 142px;
 }
 
