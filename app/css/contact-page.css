@@ -44,6 +44,7 @@ label {
 input[type=text] {
 	border: 1px solid #67dffa;
 	border-radius: 4px;
+	color: rgba(72, 203, 232, 1);
 	width: 193px;
 	height: 42px;
 }
@@ -84,6 +85,8 @@ input[type=text] {
 	border: 1px solid #67dffa;
 	border-radius: 4px;
 	owerflow: auto;
+	color: rgba(72, 203, 232, 1);
+	resize: none;
 }
 
 .capcha-explanation-text {
