@@ -397,17 +397,17 @@ i {
 * Sticky Footer
 */
 
-.fix{
+.fix-footer{
     min-height: 100%;
     margin-bottom: -142px;
 }
 
-.fix:after {
+.fix-footer:after {
     content: "";
     display: block;
 }
 
-.page-footer, .fix:after {
+.page-footer, .fix-footer:after {
     height: 142px;
 }
 
