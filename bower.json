@@ -1,7 +1,7 @@
 {
   "name": "dz1_annak",
   "dependencies": {
-    "jquery": "~2.1.4",
+    "jquery": "1.8",
     "normalize-css": "normalize.css#~3.0.3",
     "modernizer": "~2.8.2"
   },

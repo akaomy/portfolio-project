@@ -201,8 +201,8 @@ i {
 .navigation {
     overflow: hidden;
     background: #eff3f7;
-    border-radius: 4px;
-    margin-bottom: 26px;
+    border-radius: 5px;
+    margin-bottom: 23px;
 }
 
 .navigation-list {
@@ -264,8 +264,8 @@ i {
 .contacts-info-title {
     background-color: #3ba8c0;
     color: #f9fafb;
-    padding-left: 21px;
-    line-height: 200%;
+    padding-left: 20px;
+    padding-top: 6px;
     font-size: 22px;
     font-weight: normal;
     font-family: 'fira_sansbook';
@@ -292,14 +292,14 @@ i {
     color: #f9fafb;
     font-family: 'fira_sansbook';
     font-size: 16px;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .sprite-contacts {
     background-image: url(../img/spritesheet-contacts.png);
     background-repeat: no-repeat;
     padding-left: 20px;
-    line-height: 240%;
+    line-height: 250%;
     padding-right: 5px;
     padding-bottom: 5px;
 }
