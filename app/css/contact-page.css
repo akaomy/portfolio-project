@@ -101,33 +101,38 @@ input[type=text] {
 }
 
 .submit-button {
-	border-radius: 4px;
-	background-color: #48cbe8;
-	border: none;
+	font-size: 19px;
 	width: 137px;
 	height: 35px;
-	box-shadow: 0 3px 0 #3ba8c0;
+	border-radius: 4px;
+	background-color: #48cbe8;
+	border-color: #3ba8c0;
+    border-style: solid;
+    border-width: 0 0 2px;
 }
 
-/*.submit-button:hover {
+.submit-button:hover {
 	border: none;
 }
-*/
+
 
 
 .clear-button {
+	font-size: 19px;
+	width:137px;
+	height: 35px;
 	float: right;
 	border-radius: 4px;
 	background-color: #849db5;
-	border: none;
-	width:137px;
-	height: 35px;
-	box-shadow: 0 3px 0 #687b8f;
+	border-color: #687b8f;
+    border-style: solid;
+    border-width: 0 0 2px;
+
 }
 
-/*.clear-button:hover {
+.clear-button:hover {
 	border: none;
-}*/
+}
 
 
 
