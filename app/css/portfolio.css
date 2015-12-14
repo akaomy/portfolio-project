@@ -116,3 +116,192 @@
 .project4 {
 	background: url(../img/portfolio-showcase-image4.png);
 }
+
+/* popup window */
+
+.project-popup-window { /* hide this*/
+	display: none;
+}
+
+.popup-wrapper {
+	max-width: 363px;
+	max-height: 570px;
+	background-color: #eff3f7;
+	position: relative;
+}
+
+.popup-title {
+	font-family: 'fira_sansregular';
+	font-size: 25px;
+	background-color: #48cbe8;
+	line-height: 44px;
+	color: #fff;
+	border-bottom: 9px solid #67dffa;
+	padding: 5px 0 0 12px;
+}
+
+.popup-close {
+	position: absolute;
+    top: 13px;
+    right: 15px;
+    color: #fff;}
+
+.popup-form {
+	max-width: 350px;
+	padding: 20px 20px;
+	border-radius: 6px;
+}
+
+.project-name-label, .upload-project-image,
+.project-url-label, .label-proj-descr {
+	display: block;
+	font-family: 'fira_sansbook';
+	font-size: 13px;
+	line-height: 1;
+	color: #959aa8;
+	padding-bottom: 5px;
+}
+
+.project-details {
+	margin-bottom: 15px;
+}
+
+input[type=text] {
+	border: 2px solid #67dffa;
+	border-radius: 6px;
+	color: rgba(72, 203, 232, 1);
+	font-size: 13px;
+	width: 100%;
+	height: 50px;
+	padding-bottom: 5px;
+/*	text-indent: 10px;
+*/}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #48cbe8;
+    padding-left: 10px;
+    font-size: 13px;
+	font-family: fira_sanslight;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #48cbe8;
+    padding-left: 10px;
+    font-size: 13px;
+	font-family: fira_sanslight;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #48cbe8;
+    padding-left: 10px;
+    font-size: 20px;
+	font-family: fira_sanslight;
+}
+:-ms-input-placeholder,  { /* Internet Explorer 10-11 */
+   	color: #48cbe8;
+   	padding-left: 10px;
+    font-size: 13px;
+	font-family: fira_sanslight;
+}
+
+.textarea-project-description {
+	font-family: fira_sanslight;
+	color: #48cbe8;
+	font-size: 13px;
+	border: 2px solid #67dffa;
+	border-radius: 6px;
+	width: 100%;
+	resize: none;
+	overflow: hidden;
+}
+
+.submit-project {
+	font-family: 'fira_sansbook';
+	font-size: 19px;
+	height: 35px;
+	background-color: #48cbe8;
+	color: #fff;
+	border-radius: 4px;
+	border-color: #3ba8c0;
+    border-style: solid;
+    border-width: 0 0 2px;
+    padding: 0 15px;
+    margin-top: 10px;
+    margin-left: 22%;
+
+}
+
+.submit-project:hover {
+	border: none;
+}
+/*submit-button {
+	font-size: 19px;
+	width: 137px;
+	height: 35px;
+	border-radius: 4px;
+	background-color: #48cbe8;
+	border-color: #3ba8c0;
+    border-style: solid;
+    border-width: 0 0 2px;
+}
+
+.submit-button:hover {
+	border: none;
+}*/
+
+.error-message {
+	background-color: #fad2d1 !important;
+	border-color: #f97e76 !important;
+}
+
+.success-message {
+	background-color: none;
+	border-color: #3c763d;
+}
+
+
+/* Upload File */
+.upload-files-block {
+	margin-bottom: 12px;
+}
+
+.file-upload-wrapper {
+	width: 100%;
+  	position: relative;
+}
+
+.file-upload-wrap {
+	display: block;
+	background-image: url(../img/upload-icon.png);
+	background-repeat: no-repeat;
+	background-position: 9px 13px;
+	position: absolute;	
+	width: 50px;
+	height: 50px;
+	right: 0;
+	border-radius: 0 4px 4px 0;
+	background-color: #48cbe8;
+}
+
+.file-upload {
+	border: 0;
+	height: 1px;
+	clip: rect(0);
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	margin: -1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

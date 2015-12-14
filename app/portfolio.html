@@ -132,22 +132,51 @@
 									</a>
 								</div>
 							</li>
-					</ul>
+						</ul>
 					</section>
 				</div><!-- Variable blocks-->
 
 				<!-- // Big changeable blocks-->
 				
 				<!-- Portfolio blocks-->
-
 			</div><!-- Container -->
-
 		</div><!-- Main container -->
 	</div><!-- Wrapper -->
+	
+	<div class="project-popup-window">
+		<div class="popup-wrapper">
+			<h3 class="popup-title">Add Project</h3>
+			<a href="" class="b-close"><img src="img/close-icon.png" class="popup-close"></a>
+			<div class="error-message"></div>
+			<div class="success-message"></div>
+			<form class="popup-form" action="">
+				<div class="project-details">
+					<label class="project-name-label" for="project-name">Project Name:</label>
+					<input class="project-name"type="text" placeholder="Type in the project name">
+				</div>
+				<div class="upload-files-block">	
+					<div class="file-upload-wrapper">
+						<span class="upload-project-image">Project Image:</span>
+						<label class="file-upload-wrap">
+							<input type="file" class="file-upload" id="file-upload-icon" name="files">
+							<input type="hidden" name="file-url" id="fil-eurl">
+						</label>
+						<input type="text" class="input-field" id="input-field-placeholder" placeholder="Upload image" disabled qtip-content="Please choose image to upload" qtip-position="left">	
+					</div>
+				</div>	
+				<div class="project-details">
+					<label class="project-url-label" for="project-url">Project URL:</label>
+					<input class="project-url" type="text" placeholder="Type in the project url">
+				</div>	
 
+				<label class="label-proj-descr">Project Description:</label>
+				<textarea class="textarea-project-description" name="project-description" cols="30" rows="5" placeholder="Short project description"></textarea>
 
+				<button class="submit-project" type="submit-project">Submit Project</button>
+			</form>
+		</div>	
+	</div><!-- popup window -->
 </div><!-- fix-footer -->
-
 
 <footer class="page-footer">
 	<div class="container">
@@ -158,6 +187,8 @@
 
 <script src="bower/jquery/jquery.min.js"></script>
 <script src="js/main.js"></script>
+<script src="bower/bPopup/jquery.bpopup.min.js"></script>
+<script src="js/add-project.js"></script>
 
 </body>
 </html>
