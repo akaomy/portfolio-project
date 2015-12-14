@@ -146,7 +146,7 @@
 	<div class="project-popup-window">
 		<div class="popup-wrapper">
 			<h3 class="popup-title">Add Project</h3>
-			<a href="" class="b-close"><img src="img/close-icon.png" class="popup-close"></a>
+			<img src="img/close-icon.png" class="popup-close b-close">
 			<div class="error-message"></div>
 			<div class="success-message"></div>
 			<form class="popup-form" action="">
@@ -158,8 +158,8 @@
 					<div class="file-upload-wrapper">
 						<span class="upload-project-image">Project Image:</span>
 						<label class="file-upload-wrap">
-							<input type="file" class="file-upload" id="file-upload-icon" name="files">
-							<input type="hidden" name="file-url" id="fil-eurl">
+							<input type="file" class="file-upload" name="files">
+							<input type="hidden" class="file-url" name="file-url" placeholder="">
 						</label>
 						<input type="text" class="input-field" id="input-field-placeholder" placeholder="Upload image" disabled qtip-content="Please choose image to upload" qtip-position="left">	
 					</div>

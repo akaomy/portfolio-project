@@ -59,3 +59,11 @@ var myModule = ( function(){
 }) ();
 
 myModule.init();       
+
+
+// upload project
+
+$('.file-upload').change(function(e){
+	var value = $(this).val();
+  	$('.input-field').attr("placeholder", value);
+});
