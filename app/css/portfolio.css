@@ -128,6 +128,7 @@
 	max-height: 570px;
 	background-color: #eff3f7;
 	position: relative;
+	border-radius: 4px;
 }
 
 .popup-title {
@@ -138,6 +139,7 @@
 	color: #fff;
 	border-bottom: 9px solid #67dffa;
 	padding: 5px 0 0 12px;
+	border-radius: 4px 4px 0 0 ;
 }
 
 .popup-close {
@@ -148,7 +150,7 @@
 
 .popup-form {
 	max-width: 350px;
-	padding: 20px 20px;
+	padding: 0 20px 25px;
 	border-radius: 6px;
 }
 
@@ -170,12 +172,12 @@ input[type=text] {
 	border: 2px solid #67dffa;
 	border-radius: 6px;
 	color: rgba(72, 203, 232, 1);
+	color: #48cbe8;
 	font-size: 13px;
 	width: 100%;
 	height: 50px;
 	padding-bottom: 5px;
-/*	text-indent: 10px;
-*/}
+}
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color: #48cbe8;
@@ -186,7 +188,7 @@ input[type=text] {
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     color: #48cbe8;
     padding-left: 10px;
-    font-size: 13px;
+    font-size: 10px;
 	font-family: fira_sanslight;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
@@ -213,6 +215,17 @@ input[type=text] {
 	overflow: hidden;
 }
 
+:-ms-textarea-placeholder {
+	font-family: fira_sanslight;
+	color: #48cbe8;
+	font-size: 13px;
+	border: 2px solid #67dffa;
+	border-radius: 6px;
+	width: 100%;
+	resize: none;
+	overflow: hidden;
+}
+
 .submit-project {
 	font-family: 'fira_sansbook';
 	font-size: 19px;
@@ -225,36 +238,12 @@ input[type=text] {
     border-width: 0 0 2px;
     padding: 0 15px;
     margin-top: 10px;
-    margin-left: 22%;
+    margin-left: 24%;
 
 }
 
 .submit-project:hover {
 	border: none;
-}
-/*submit-button {
-	font-size: 19px;
-	width: 137px;
-	height: 35px;
-	border-radius: 4px;
-	background-color: #48cbe8;
-	border-color: #3ba8c0;
-    border-style: solid;
-    border-width: 0 0 2px;
-}
-
-.submit-button:hover {
-	border: none;
-}*/
-
-.error-message {
-	background-color: #fad2d1 !important;
-	border-color: #f97e76 !important;
-}
-
-.success-message {
-	background-color: none;
-	border-color: #3c763d;
 }
 
 
@@ -292,7 +281,33 @@ input[type=text] {
 	margin: -1px;
 }
 
+/* messages */
 
+.server-message {
+	padding: 6px 12px;
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 12px;
+	border: 1px solid;
+	border-radius: 4px;
+	display: none;
+
+}
+
+.error-message {
+	background-color: #f2cccd;
+	border-color: #f97e76;
+	color: #f97e76;
+	box-sizing: border-box;
+}
+
+.success-message {
+	background-color: #b8e1ce;
+	border-color: #49bb7b;
+	color: #49bb7b;
+	display: none;
+	box-sizing: border-box;
+}
 
 
 

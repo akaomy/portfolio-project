@@ -396,6 +396,26 @@ i {
     background: url(../img/unlock-login.png) no-repeat;
 }
 
+/*
+* Qtip
+*/
+
+.has-error {
+    background: #fad2d1;
+    border: 1px solid #f97e76 !important;
+}
+.has-error:focus {
+    outline: 3px solid #f97e76;
+}
+.qtip {
+    background-color: #f97e76;
+    border-color: #f97e76;
+    font-family: 'Arial';
+    color: #ffffff;
+    font-size: 13px;
+}
+
+
 /* 
 * Sticky Footer
 */

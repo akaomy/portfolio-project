@@ -22,12 +22,9 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/about-me.css">
 	<link rel="stylesheet" href="css/contact-page.css">
+	<link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
 	<!--[if lt IE 9]>
     <script src="bower/html5shiv/dist/html5shiv-printshiv.min.js"></script>
-	<![endif]-->
-	
-	<!--[if lt IE 7]>
- 	<script src="bower/placeholders/dist/placeholders.jquery.min.js"></script>
 	<![endif]-->
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
@@ -88,28 +85,39 @@
 
 				<div class="variable-block">
 					<section class="contact-me-block">
+					
 						<h2 class="contact-me-block-header">Do you have an interesting project for me? Just fill out the form below</h2>
 						
 						<div class="contact-form-wrapper">
-							<form action="" class="contact-form" method="post">
+
+							<form action="" class="contact-form" method="post" name="contactForm">
+
 								<div class="left-block-for-name">
-									<label for="name">Name:</label>
-									<input class="form-block-name" type="text" id="user-name" name="user-name" placeholder="How should I call you?" required>
+									<label name="name">Name:</label>
+									<input class="form-block-name" type="text" id="user-name" name="user-name" placeholder="How should I call you?"  qtip-content="Please enter your name" qtip-position="left">
 								</div>
+
 								<div class="right-block-for-email">
 									<label for="name">Email:</label>
-									<input class="form-block-email" type="text" id="user-email" name="user-email" placeholder="Where should I email you?" required>
+									<input class="form-block-email" type="text" id="user-email" name="user-email" placeholder="Where should I email you?"  qtip-content="Please enter your email" qtip-position="right">
 								</div>
+
 								<div class="message-input-field">
 									<label for="message">Message:</label>
-									<textarea class="message-textarea" name="user-message" id="message" placeholder="Short description of your enquiry" required></textarea>
+									<textarea class="message-textarea" name="user-message" id="message" placeholder="Short description of your enquiry"  qtip-content="Please enter your short message here" qtip-position="left"></textarea>
 								</div>
+
 								<p class="capcha-explanation-text">Check this box to prove that you are human</p>
+
 								<div class="g-recaptcha" data-sitekey="6LeIbxITAAAAANZyXSfxY5ZIPZvhjwHtSCgPq8M6">
 								</div>
+
 								<div class="buttons">
-									<button class="submit-button" type="submit">Submit</button>
+
+									<button class="submit-button" type="submit" name="submitButton">Submit</button>
+									
 									<button class="clear-button" type="reset">Clear</button>
+
 								</div>
 							</form>
 						</div>
@@ -132,10 +140,11 @@
 	</div>
 </footer>
 
-
-
 <script src="bower/jquery/jquery.min.js"></script>
- <!-- <script src="js/main.js"></script>
- -->
+<script src="bower/qtip2/jquery.qtip.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/main.js"></script>
+<script src="bower/placeholders/dist/placeholders.jquery.min.js"></script>
+
 </body>
 </html>

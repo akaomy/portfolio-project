@@ -43,6 +43,7 @@ label {
 
 input[type=text] {
 	border: 1px solid #67dffa;
+	color: #48cbe8;
 	border-radius: 4px;
 	color: rgba(72, 203, 232, 1);
 	width: 193px;
@@ -67,11 +68,17 @@ input[type=text] {
     font-size: 13px;
 	font-family: fira_sanslight;
 }
-:-ms-input-placeholder,  { /* Internet Explorer 10-11 */
+:-ms-input-placeholder  { /* Internet Explorer 10-11 */
    	color: #48cbe8;
    	padding-left: 10px;
     font-size: 13px;
 	font-family: fira_sanslight;
+}
+:-ms-textarea-placeholder {
+   	padding-left: 10px;
+	font-family: fira_sanslight;
+	color: #48cbe8;
+	font-size: 13px;
 }
 
 
@@ -132,6 +139,16 @@ input[type=text] {
 
 
 
+/* messages */
+
+.has-error{
+	background-color: #fad2d1 !important;
+	border-color: #f97e76 !important;
+}
+.has-success{
+	background-color: none;
+	border-color: #3c763d;
+}
 
 
 
